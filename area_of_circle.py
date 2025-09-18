@@ -4,16 +4,17 @@
 # and that pi is 3.14
 
 r = 5
-pi = Final = 3.14 # "Final" means that pi is a constant and should not be changed
-# pi = 22/7 logical error, cause if you want pi to be constant, you should not change its value
+PI = 3.14
+# PI
+#  = 22/7 logical error, cause if you want pi to be constant, you should not change its value
 
 user_input = input("Please enter the radius of the circle: ")
 print("Type of user input ", type(user_input))
 int(user_input) # cast user input to an integer
 r = int(user_input) # reassign r to the user input value
 
-circumference = 2 * pi * r
+circumference = 2 * PI * r
 print("The circumference of the circle is", circumference)
 
-circle_area = pi * r**2
+circle_area = PI * r**2
 print("The circle area is", circle_area)

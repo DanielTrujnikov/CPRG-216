@@ -85,11 +85,10 @@ print(str(43)) # cast 43 to a string
 
 x = 1
 print(x, type(x))
-
 y = float(x) # cast x to a float and assign it to y
 print(y, type(y))
 
 v = 4.3
 print(v, type(v))
 u = int(v) # cast v to an integer and assign it to u
-print(u, type(u))
+print(u, type(u)) # note that casting a float to an integer truncates the decimal part
