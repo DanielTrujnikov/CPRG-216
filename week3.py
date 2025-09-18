@@ -31,3 +31,19 @@ num2 = 3.4
 num2_i = int(num2)
 
 num2_as_text = str(num2)
+
+# using input function... not input function always returns a string
+
+'''
+year_of_birth = input("Please enter your year of birth: ")
+year_of_birth = int(year_of_birth)
+print("Your age is", 2025 - year_of_birth)
+'''
+# print function
+
+print("Hello", "World", sep=' ', end=', ')
+print("Hello", "World", sep=' ')
+print("Hello\tworld") # tab space
+print("Hello\nworld") # new line
+print('What is the student\'s name?') # escape character
+print("Use this symbol \\ to make an escape character")
