@@ -15,3 +15,19 @@ print(z, type(z))
 a = True # boolean
 print(a, type(a))
 
+# some functions call : print, input, int, float, str, bool
+num_as_text = "43"
+
+num_as_num = int(num_as_text)
+
+print(num_as_text)
+print(num_as_num)
+print(str(num_as_num))
+
+num = 3
+num_f = float(3)
+
+num2 = 3.4
+num2_i = int(num2)
+
+num2_as_text = str(num2)
