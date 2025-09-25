@@ -1,6 +1,8 @@
-A = int(input("Please enter a value for a: "))
-B = int(input("Please enter a value for b: "))
-C = int(input("Please enter a value for c: "))
+print ("Welcome to the Quadratic Equation Solver")
+
+A = float(input("Please enter a value for a: "))
+B = float(input("Please enter a value for b: "))
+C = float(input("Please enter a value for c: "))
 x1 = 0
 x2 = 0
 if A == 0:
