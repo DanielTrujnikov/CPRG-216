@@ -47,3 +47,33 @@ print("Hello\tworld") # tab space
 print("Hello\nworld") # new line
 print('What is the student\'s name?') # escape character
 print("Use this symbol \\ to make an escape character")
+
+# precedence rules
+
+expression = 3+4*0-300+12/3
+print(expression)
+
+expression = 4/2*3
+print(expression)
+
+# more about assignments
+
+x = 3
+x = x + 5
+
+print(x)
+
+# can we have a shorthand for this expression?
+
+x += 5 # x = x + 5
+
+# other expressions
+
+x -= 2 # x = x - 2
+print(x)
+x *= 3 # x = x * 3
+print(x)
+x /= 4 # x = x / 4
+print(x)
+x **= 2 # x = x ** 2
+print(x)
