@@ -29,8 +29,8 @@ welcome_message(input_name, input_year)
 
 number = float(input("Please enter a number to compute its square root\n"))
 
-def compute_sqrt(number):
-    sqrt = number ** 0.5
+def compute_sqrt(num):
+    sqrt = num ** 0.5
     return sqrt # return the computed square root
 result = compute_sqrt(number) # call the function and store the returned value
 print(f"The square root of {number} is {result}")
